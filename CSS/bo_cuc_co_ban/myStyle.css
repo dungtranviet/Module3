@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+#main{
+    text-align: center;
+}
+#head{
+    top: 0px;
+    height: 100px;
+    width: 100%;
+}
+#logo{
+    background-color: bisque;
+    width: 20%;
+    height: 100%;
+}
+#baner{
+    background-color: darkblue;
+    width: 80%;
+    height: 100%;
+}
+#head-link{
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+#head-link a{
+    float: left;
+    font-size: 17px;
+    color: bisque;
+    padding: 14px 16px;
+}
+#left{
+background-color: blueviolet;
+    height: 400px;
+    width: 15%;
+    float: left;
+}
+#content{
+background-color: bisque;
+    height: 400px;
+    width: 60%;
+    float: left;
+}
+#right{
+background-color: chartreuse;
+    height: 400px;
+    width: 25%;
+    float: left;
+}
+#footer{
+background-color: crimson;
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
