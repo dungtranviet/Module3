@@ -1,0 +1,7 @@
+<p>pet profile</p>
+<h1>Pet name :</h1>
+<input type="text" (change)="updateName($event.target.value)"><br>
+<h1>Pet image :</h1>
+<input type="text" (change)="updateImage($event.target.value)"><br>
+<h3>Pet Name: {{ petName }}</h3>
+<img [src]="petImage">

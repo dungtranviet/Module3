@@ -1,0 +1,12 @@
+<h3>Awesome Calculator</h3>
+<input [value]="fisrt" type="number" (change)="onChangeFisrt($event.target.value)">
+<select
+[value]="operator" (change)="onChangeOperator($event.target.value)">
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="*">*</option>
+  <option value="/">/</option>
+</select>
+<input [value]="second" type="number" (change)="onChangeSecond($event.target.value)"><br>
+<button (click)="calculate()">thuc thi</button>
+<h3>Result : {{ result }}</h3>
